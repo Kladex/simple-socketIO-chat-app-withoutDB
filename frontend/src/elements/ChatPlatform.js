@@ -1,17 +1,13 @@
 import React, { useState, useEffect } from "react";
-
-import MessageInput from "../components/ChatPlatForm/MessageInput";
-
 import io from "socket.io-client";
 
+import MessageInput from "../components/ChatPlatForm/MessageInput";
 import AllMessages from "../components/ChatPlatForm/AllMessages";
 import { useParams } from "react-router";
 
 let socket;
 
 const ChatPlatform = () => {
-  // const [visible, setVisible] = useState(false);
-
   const [userName, setUserName] = useState("");
   const [roomId, setRoomId] = useState("");
   const [users, setUsers] = useState([]);
@@ -45,23 +41,12 @@ const ChatPlatform = () => {
     });
   }, []);
 
-  // const showDrawer = (e) => {
-  //   e.preventDefault();
-  //   setVisible(true);
-  // };
-
-  // const onClose = () => {
-  //   setVisible(false);
-  // };
-
   const sendMessage = (event) => {
     event.preventDefault();
 
     if (message) {
       socket.emit("sendMessage", message, () => setMessage(""));
     }
-
-    console.log(users);
   };
 
   return (
@@ -79,12 +64,7 @@ const ChatPlatform = () => {
             >
               <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793V2zm5 4a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
             </svg>{" "}
-            Chatty - The Simple Chat Application [
-            {/* <a href='/#' onClick={showDrawer}>
-              {' '}
-              {roomId}
-            </a> */}
-            {roomId}]
+            Chatty - The Simple Chat Application
           </div>
           <div className="msger-header-options">
             <span>

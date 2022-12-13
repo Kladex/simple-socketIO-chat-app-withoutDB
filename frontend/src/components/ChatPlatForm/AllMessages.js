@@ -6,7 +6,6 @@ const AllMessages = ({ messages, userName }) => {
   return (
     <main className="msger-chat">
       <ScrollToBottom>
-        {" "}
         {messages.map((message, i) => (
           <Message key={i} message={message} userName={userName} />
         ))}

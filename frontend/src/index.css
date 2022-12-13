@@ -26,7 +26,6 @@ select:focus {
   margin-left: 7px;  
 } */
 
-
 :root {
   --body-bg: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   --msger-bg: #fff;
@@ -194,10 +193,11 @@ body {
 }
 
 .msger-chat {
-  background-color: #fcfcfe;
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M353.5980125915487 325.52275744469705L501.9161665472012 307.3115780373229 335.3868331841745 177.2046034890445z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1291.377%2c342.366C1331.279%2c341.962%2c1366.767%2c321.745%2c1389.449%2c288.914C1416.405%2c249.896%2c1438.081%2c202.162%2c1417.885%2c159.253C1395.217%2c111.092%2c1344.489%2c77.031%2c1291.377%2c80.554C1242.399%2c83.803%2c1212.283%2c130.101%2c1190.941%2c174.305C1172.824%2c211.83%2c1168.429%2c255.166%2c1189.805%2c290.935C1210.671%2c325.85%2c1250.704%2c342.778%2c1291.377%2c342.366' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M898.3781932777333 148.79039782397132L829.8798370781965 227.58874274248993 977.176538196252 217.2887540235082z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M362.3461940128983 135.55827105824193L253.8005681277209 181.63315565620914 299.87545272568815 290.17878154138657 408.42107861086555 244.10389694341933z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1245.4648738762485 461.0081062006268L1137.4699605433154 423.70731364314037 1154.8134218907267 522.0669706719561z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M645.015%2c578.136C698.111%2c580.879%2c757.23%2c578.383%2c787.302%2c534.538C820.56%2c486.046%2c816.99%2c420.996%2c787.799%2c369.952C758.398%2c318.54%2c704.226%2c284.448%2c645.015%2c285.733C587.782%2c286.975%2c538.397%2c324.834%2c512.577%2c375.926C489.091%2c422.4%2c497.567%2c477.486%2c526.097%2c521.046C551.918%2c560.47%2c597.951%2c575.705%2c645.015%2c578.136' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+  background-color: #330055;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='560' height='560' preserveAspectRatio='none' viewBox='0 0 560 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1312%26quot%3b)' fill='none'%3e%3crect width='560' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient1313)'%3e%3c/rect%3e%3cpath d='M339.15 444.62 a148.06 148.06 0 1 0 296.12 0 a148.06 148.06 0 1 0 -296.12 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M155.028992748618 208.17685709150524L271.1957642717268 214.2648996135118 277.28380679373333 98.09812809040305 161.11703527062457 92.01008556839648z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M236.64467536113708 154.45534148326988L309.98291740739796 106.82893022667115 262.3565061507992 33.49068818041029 189.01826410453833 81.11709943700902z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M75.3296652057022 69.45641374343872L192.14867624372786 109.68042500102109 232.37268750131022-7.138586037004572 115.55367646328457-47.36259729458695z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M464.21376676547834 305.83974646936593L416.7062162459544 139.5633196510322 309.8142275770256 246.45530831996103z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1312'%3e%3crect width='560' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='50%25' y1='0%25' x2='50%25' y2='100%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1313'%3e%3cstop stop-color='rgba(8%2c 26%2c 45%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='%2300459e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+  background-attachment: fixed;
+  background-size: contain;
 }
-
 
 .msger-header-title {
   font-size: 1.2rem;
@@ -208,14 +208,14 @@ body {
   max-width: 500px;
   margin: auto;
   border: 1px solid blue;
-  border-radius:25px;
+  border-radius: 25px;
   padding: 25px;
   background-color: #f2f2f2;
   padding-bottom: 55px;
   margin-top: 250px;
 }
 
-.inputBox{
+.inputBox {
   width: 100%;
   font-size: 1.8rem;
   margin: 5px;
@@ -224,11 +224,11 @@ body {
 }
 
 .btn-join {
- float: right;
- font-size: 1.2rem;
- margin: 10px;
- width: 120px;
- background-color: rgb(32, 55, 32);
- color: white;
- height: 40px;
+  float: right;
+  font-size: 1.2rem;
+  margin: 10px;
+  width: 120px;
+  background-color: rgb(32, 55, 32);
+  color: white;
+  height: 40px;
 }
